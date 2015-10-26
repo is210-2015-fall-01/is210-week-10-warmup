@@ -9,5 +9,5 @@ GRADE_DATA = {
     'Han Solo': {
         'math': 'A-', 'etiquette': 'C-', 'grammar': 'B', 'gym': 'B'},
     'C-3PO': {
-        'math': 'C', 'etiqutte': 'A+', 'grammar': 'A', 'gym': 'F'},
+        'math': 'C', 'etiquette': 'A+', 'grammar': 'A', 'gym': 'F'},
 }
