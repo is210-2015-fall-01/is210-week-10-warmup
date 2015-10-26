@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Wk10 warmup task01."""
 
+
 GRADE_DATA = {
     'Luke Skywalker': {
         'math': 'B', 'etiquette': 'B+', 'grammar': 'B', 'gym': 'A'},
