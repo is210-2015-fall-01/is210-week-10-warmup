@@ -1,0 +1,55 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""All about dictionary iteration."""
+
+
+DATA = {
+    2: 7493945,
+    76: 4654320,
+    3: 4091979,
+    90: 1824881,
+    82: 714422,
+    45: 1137701,
+    10: 374362,
+    0: 326226,
+    -15: 417203,
+    -56: 333525,
+    67: 323451,
+    99: 321696,
+    21: 336753,
+    -100: 361237,
+    55: 1209714,
+    5150: 1771800,
+    42: 4714011,
+    888: 14817667,
+    3500: 13760234,
+    712: 10903322,
+    7: 10443792,
+    842: 11716264,
+    18584: 10559923,
+    666: 9275602,
+    70: 11901200,
+    153: 12074784,
+    8: 4337229
+}
+
+
+def iter_dict_funky_sum(a_dict):
+    """Does math on an iterated dictionary.
+
+    Args:
+        a_dict: a dictionary containing integer keys and values
+
+    Returns:
+        total: A sum of each value minus its respective key
+
+    Examples:
+        >>> iter_dict_funky_sum({5: 30, 10: 40,15: 50})
+        90
+        >>> iter_dict_funky_sum({1: 30, 2: 40,3: 50})
+        114
+    """
+    total = 0
+    for key, value in a_dict.iteritems():
+        total += value - key
+    return total
