@@ -7,16 +7,16 @@ GRADE_DATA = {
     'Luke Skywalker': {
         'math': 'B',
         'etiquette': 'B+',
-        'grammer': 'B',
+        'grammar': 'B',
         'gym': 'A'},
     'Han Solo': {
         'math': 'A-',
         'etiquette': 'C-',
-        'grammer': 'B',
+        'grammar': 'B',
         'gym': 'B'},
     'C-3PO': {
         'math': 'C',
         'etiquette': 'A+',
-        'grammer': 'A',
+        'grammar': 'A',
         'gym': 'F'},
 }
