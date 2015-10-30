@@ -16,6 +16,8 @@ DATA = {
     -56: 3476,
     67: 51787
 }
+
+
 def iter_dict_funky_sum(data):
     """This function assigns and appends product minus key. Give total.
 
@@ -24,7 +26,7 @@ def iter_dict_funky_sum(data):
 
     Returns:
         A funky sum.
-        
+
     Examples:
         >>> iter_dict_funky_sum(DATA)
         47328391
@@ -33,4 +35,3 @@ def iter_dict_funky_sum(data):
     for key, value in data.iteritems():
         total += (value - key)
     return total
-    
