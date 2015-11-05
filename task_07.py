@@ -33,7 +33,7 @@ DATA = {
 }
 
 
-def iter_dict_funky_sum():
+def iter_dict_funky_sum(somedata):
     """Explaining the function inter_dict_funky_sum.
     Args:
         (dict):A dictionary of keys and values.
